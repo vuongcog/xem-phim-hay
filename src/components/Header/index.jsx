@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
           <div className="col-12">
             <div className="header__content">
               <a href="index-2.html" className="header__logo">
-                <img src="img/logo.svg" alt="" />
+                <img src="/img/logo.svg" alt="" />
               </a>
 
               <div className="header__categories">
@@ -39,7 +40,7 @@ const Header = () => {
                   </ul>
                   <ul className="header__categories-list">
                     <li>
-                      <a href="catalog1.html">Catalog Grid</a>
+                      <a to="/catalog/catalog/grid">Catalog Grid</a>
                     </li>
                     <li>
                       <a href="catalog2.html">Catalog List</a>
@@ -71,10 +72,10 @@ const Header = () => {
 
                   <ul className="dropdown-menu header__dropdown-menu">
                     <li>
-                      <a href="index-2.html">Home style 1</a>
+                      <a href="/">Home style 1</a>
                     </li>
                     <li>
-                      <a href="index2.html">Home style 2</a>
+                      <a href="/style2">Home style 2</a>
                     </li>
                   </ul>
                 </li>
@@ -95,7 +96,7 @@ const Header = () => {
 
                   <ul className="dropdown-menu header__dropdown-menu">
                     <li>
-                      <a href="catalog1.html">Catalog Grid</a>
+                      <a href="/catalog/catalog1">Catalog Grid</a>
                     </li>
                     <li>
                       <a href="catalog2.html">Catalog List</a>

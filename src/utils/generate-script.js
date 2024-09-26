@@ -1,11 +1,11 @@
 const scripts = [
-  "js/bootstrap.bundle.min.js",
-  "js/splide.min.js",
-  "js/slimselect.min.js",
-  "js/plyr.min.js",
-  "js/photoswipe.min.js",
-  "js/default-skin.min.js",
-  "js/main.js",
+  "/js/bootstrap.bundle.min.js",
+  "/js/splide.min.js",
+  "/js/slimselect.min.js",
+  "/js/plyr.min.js",
+  "/js/photoswipe.min.js",
+  "/js/photoswipe-ui-default.min.js",
+  "/js/main.js",
 ];
 
 export const generateScript = () => {
@@ -13,6 +13,7 @@ export const generateScript = () => {
     const script = document.createElement("script");
     script.src = src;
     script.async = true;
+    console.log(script);
     document.body.appendChild(script);
   });
 };
