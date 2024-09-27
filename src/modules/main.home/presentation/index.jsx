@@ -4,14 +4,14 @@ import Partner from "../../../components/Partner";
 import PricingPlan from "../../../components/PricingPlan";
 import Content from "../../catalog/presentation";
 import HomeStyles1 from "./HomeStyle1";
+import RecentlyUpdated from "../../../components/RecentlyUpdated";
 
 const Home = ({ children }) => {
   return (
     <>
-      {/* <HomeStyles1></HomeStyles1> */}
       {children}
       <Outlet></Outlet>
-      <Content></Content>
+      <RecentlyUpdated></RecentlyUpdated>
       <NowWatching></NowWatching>
       <PricingPlan></PricingPlan>
       <Partner></Partner>

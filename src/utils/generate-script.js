@@ -1,6 +1,7 @@
 const scripts = [
   "/js/bootstrap.bundle.min.js",
   "/js/splide.min.js",
+  "/js/smooth-scrollbar.js",
   "/js/slimselect.min.js",
   "/js/plyr.min.js",
   "/js/photoswipe.min.js",

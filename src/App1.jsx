@@ -18,11 +18,6 @@ const App1 = () => {
         console.log("hello");
         return <App2 key={index} message={item}></App2>;
       })}
-      <App>
-        <App1>
-          <App2></App2>
-        </App1>
-      </App>
     </div>
   );
 };

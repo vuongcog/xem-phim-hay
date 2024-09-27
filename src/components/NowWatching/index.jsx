@@ -35,7 +35,7 @@ const NowWatching = () => {
                   <li className="splide__slide">
                     <div className="item item--carousel">
                       <a href="details1.html" className="item__cover">
-                        <img src="img/covers/7.png" alt="" />
+                        <img src="/img/covers/7.png" alt="" />
                         <span className="item__play">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const NowWatching = () => {
                   <li className="splide__slide">
                     <div className="item item--carousel">
                       <a href="details1.html" className="item__cover">
-                        <img src="img/covers/8.png" alt="" />
+                        <img src="/img/covers/8.png" alt="" />
                         <span className="item__play">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ const NowWatching = () => {
                   <li className="splide__slide">
                     <div className="item item--carousel">
                       <a href="details1.html" className="item__cover">
-                        <img src="img/covers/9.png" alt="" />
+                        <img src="/img/covers/9.png" alt="" />
                         <span className="item__play">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const NowWatching = () => {
                   <li className="splide__slide">
                     <div className="item item--carousel">
                       <a href="details1.html" className="item__cover">
-                        <img src="img/covers/10.png" alt="" />
+                        <img src="/img/covers/10.png" alt="" />
                         <span className="item__play">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@ const NowWatching = () => {
                   <li className="splide__slide">
                     <div className="item item--carousel">
                       <a href="details1.html" className="item__cover">
-                        <img src="img/covers/11.png" alt="" />
+                        <img src="/img/covers/11.png" alt="" />
                         <span className="item__play">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +167,7 @@ const NowWatching = () => {
                   <li className="splide__slide">
                     <div className="item item--carousel">
                       <a href="details1.html" className="item__cover">
-                        <img src="img/covers/12.png" alt="" />
+                        <img src="/img/covers/12.png" alt="" />
                         <span className="item__play">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

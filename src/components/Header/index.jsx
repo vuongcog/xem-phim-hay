@@ -8,7 +8,7 @@ const Header = () => {
         <div className="row">
           <div className="col-12">
             <div className="header__content">
-              <a href="index-2.html" className="header__logo">
+              <a href="/" className="header__logo">
                 <img src="/img/logo.svg" alt="" />
               </a>
 
@@ -96,22 +96,22 @@ const Header = () => {
 
                   <ul className="dropdown-menu header__dropdown-menu">
                     <li>
-                      <a href="/catalog/catalog1">Catalog Grid</a>
+                      <a href="/catalog/catalog/grid">Catalog Grid</a>
                     </li>
                     <li>
-                      <a href="catalog2.html">Catalog List</a>
+                      <a href="/catalog/catalog/list">Catalog List</a>
                     </li>
                     <li>
-                      <a href="details1.html">Details Movie</a>
+                      <a href="/catalog/detail/movie">Details Movie</a>
                     </li>
                     <li>
-                      <a href="details2.html">Details TV Series</a>
+                      <a href="/catalog/detail/tv-series">Details TV Series</a>
                     </li>
                   </ul>
                 </li>
 
                 <li className="header__nav-item">
-                  <a href="pricing.html" className="header__nav-link">
+                  <a href="/pricing" className="header__nav-link">
                     Pricing plans
                   </a>
                 </li>

@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Filter from "../../../components/Filter";
-import PageTitle from "../../../components/PageTitle";
+import NowWatching from "../../../../components/NowWatching";
+import Filter from "../../components/Filter";
+import PageTitle from "../../components/PageTitle";
 
 const Catalog = ({ children }) => {
   return (
@@ -9,6 +10,7 @@ const Catalog = ({ children }) => {
       <Filter></Filter>
       {children}
       <Outlet></Outlet>
+      <NowWatching></NowWatching>
     </>
   );
 };

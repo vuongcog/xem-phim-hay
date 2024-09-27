@@ -4,7 +4,7 @@ const PageTitle = () => {
   return (
     <section
       className="section section--first section--bg"
-      data-bg="img/bg/section__bg.jpg"
+      data-bg="/img/bg/section__bg.jpg"
     >
       <div className="container">
         <div className="row">
